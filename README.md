@@ -20,7 +20,9 @@ Usage: open_or_switch_to.sh [Program name] [Optional: Program wm-class]
 Example: `~/Scripts/open_or_switch_to.sh geany`
 
 ## How it is meant to be ##
-Give this script + <program> a shortcut
+
+Give this script + program_name a shortcut
+
 Openbox example:
 
 ```
@@ -41,7 +43,7 @@ please Note:
  1. don’t know the program name of your application ?
   * execute "xprop" in terminal
   * click on the application
-  * look for _OB_APP_CLASS,_OB_APP_NAME,WM_CLASS,WM_NAME in terminal output
+  * look for _OB_APP_CLASS, _OB_APP_NAME, WM_CLASS, WM_NAME in terminal output
 
 ## Autohors ##
  * David Siewert (siewert /dot msc /at gmail /dot com)
@@ -50,5 +52,8 @@ please Note:
 
 Copyright © 2013 David Siewert
 
-GPL v3, look at LICENSE for additional details	
-	
+FourTerm is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with this program. If not, see http://www.gnu.org/licenses/.
