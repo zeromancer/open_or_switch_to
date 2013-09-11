@@ -4,7 +4,7 @@ open_or_switch_to
 A little script to switch between multiple instances of the same program
 
 ## What it does ##
-This little script does does following 3 things:
+This little script does does 3 things:
  * opens a <program> instance if it isn't already open
  * focus <program> instance if only 1 instance is active
  * switches between <program> instances, if multiple are open
@@ -15,7 +15,7 @@ This little script does does following 3 things:
 
 ## How To Use ##
 
-Usage: open_or_switch_to.sh [Program name] [Optional: Program wm-class]
+Usage: `open_or_switch_to.sh [Program name] [Optional: Program wm-class]`
 
 Example: `~/Scripts/open_or_switch_to.sh geany`
 
@@ -40,12 +40,12 @@ please Note:
  * but some programs, like Firefox, need the second argument as well
 	
 ## FAQ ##
- 1. don’t know the program name of your application ?
+ 1. don’t know the program name or wm-class of your application ?
   * execute "xprop" in terminal
   * click on the application
   * look for _OB_APP_CLASS, _OB_APP_NAME, WM_CLASS, WM_NAME in terminal output
 
-## Autohors ##
+## Authors ##
  * David Siewert (siewert /dot msc /at gmail /dot com)
  
 ## License ##
