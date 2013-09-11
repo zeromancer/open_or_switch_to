@@ -14,24 +14,26 @@ This little script does does following 3 things:
  * xprop
 
 ## How To Use ##
-	Usage: open_or_switch_to.sh [Program name] [Optional: Program wm-class]
-  Example: `open_or_switch_to.sh geany`
+
+Usage: open_or_switch_to.sh [Program name] [Optional: Program wm-class]
+
+Example: `open_or_switch_to.sh geany`
 
 ### How it's meant to be ##
-	Give this script plus <program> a shortcut
-	Openbox example:
+Give this script plus <program> a shortcut
+Openbox example:
 
 ```
-		<keybind key="W-w">
-			<action name="Execute">
-				<command>
-			~/Scripts/open_or_switch_to.sh firefox Firefox</command>
-			</action>
-		</keybind>
+<keybind key="W-w">
+	<action name="Execute">
+		<command>
+	~/Scripts/open_or_switch_to.sh firefox Firefox</command>
+	</action>
+</keybind>
 ```
-	now press Super+w to switch between all open Firefox instances
+now press Super+w to switch between all open Firefox instances
 	
-	please Note: 
+please Note: 
  * for most programs the first argument is enough, 
  * but some programs, like Firefox, need the second argument as well
 	
@@ -40,6 +42,13 @@ This little script does does following 3 things:
  * execute "xprop" in terminal
  * click on the application
  * look for _OB_APP_CLASS,_OB_APP_NAME,WM_CLASS,WM_NAME in terminal output
-	
+
+## Autohors ##
+ * David Siewert (siewert /dot msc /at gmail /dot com)
+ 
 ## License ##
-	GPL v3
+
+Copyright © 2013 David Siewert
+
+GPL v3, look at LICENSE for additional details	
+	
