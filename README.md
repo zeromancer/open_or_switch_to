@@ -17,10 +17,10 @@ This little script does does following 3 things:
 
 Usage: open_or_switch_to.sh [Program name] [Optional: Program wm-class]
 
-Example: `open_or_switch_to.sh geany`
+Example: `~/Scripts/open_or_switch_to.sh geany`
 
-### How it's meant to be ##
-Give this script plus <program> a shortcut
+## How it is meant to be ##
+Give this script + <program> a shortcut
 Openbox example:
 
 ```
@@ -38,10 +38,10 @@ please Note:
  * but some programs, like Firefox, need the second argument as well
 	
 ## FAQ ##
-**don’t know the program name of your application ?**
- * execute "xprop" in terminal
- * click on the application
- * look for _OB_APP_CLASS,_OB_APP_NAME,WM_CLASS,WM_NAME in terminal output
+ 1. don’t know the program name of your application ?
+  * execute "xprop" in terminal
+  * click on the application
+  * look for _OB_APP_CLASS,_OB_APP_NAME,WM_CLASS,WM_NAME in terminal output
 
 ## Autohors ##
  * David Siewert (siewert /dot msc /at gmail /dot com)
