@@ -3,7 +3,7 @@ open_or_switch_to
 
 A little script to switch between multiple instances of the same program
 
-## Description ##
+## What it does ##
 This little script does does following 3 things:
  * opens a <program> instance if it isn't already open
  * focus <program> instance if only 1 instance is active
@@ -18,8 +18,7 @@ This little script does does following 3 things:
   Example: `open_or_switch_to.sh geany`
 
 ### How it's meant to be ##
-	Give this script + <program> a shortcut
-
+	Give this script plus <program> a shortcut
 	Openbox example:
 
 ```
@@ -30,7 +29,6 @@ This little script does does following 3 things:
 			</action>
 		</keybind>
 ```
-
 	now press Super+w to switch between all open Firefox instances
 	
 	please Note: 
